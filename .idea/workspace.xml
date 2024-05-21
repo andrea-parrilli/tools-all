@@ -1,151 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="f2cc258f-6d7e-4917-b746-4c591d784032" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../tools-all/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/src/main/java/me/ap/tools/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/tools-lang/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/tools-lang/src/main/java/me/ap/tools/lang/builder/Buildable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/tools-lang/src/main/java/me/ap/tools/lang/builder/ToBuilderable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/tools-lang/src/test/java/me/ap/tools/lang/builder/BuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tools-all/tools-modelling/pom.xml" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../tools-all" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
-  <component name="ProjectId" id="2gSiKbSYoazuYaJOwcNIHRCUPya" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.BuilderTest.builderModifiesAttributes.executor": "Run",
-    "JUnit.BuilderTest.executor": "Run",
-    "JUnit.BuilderTest.toBuilderable_Builder_Contract.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/code/aaarc/me/tools/tools-all/tools-lang/src/main/java/me/ap/tools/lang/builder"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tools-lang/src/main/java/me/ap/tools/lang/builder" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../.." />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="me.ap.tools.lang.builder" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.BuilderTest.builderModifiesAttributes">
-    <configuration name="BuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tools-lang" />
+  <component name="RunManager">
+    <configuration name="DeserializerForUpdatingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tools-jackson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.ap.tools.lang.builder.*" />
+          <option name="PATTERN" value="me.ap.tools.jackson.deserialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="me.ap.tools.lang.builder" />
-      <option name="MAIN_CLASS_NAME" value="me.ap.tools.lang.builder.BuilderTest" />
+      <option name="PACKAGE_NAME" value="me.ap.tools.jackson.deserialize" />
+      <option name="MAIN_CLASS_NAME" value="me.ap.tools.jackson.deserialize.DeserializerForUpdatingTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuilderTest.builderModifiesAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tools-lang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.ap.tools.lang.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="me.ap.tools.lang.builder" />
-      <option name="MAIN_CLASS_NAME" value="me.ap.tools.lang.builder.BuilderTest" />
-      <option name="METHOD_NAME" value="builderModifiesAttributes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuilderTest.toBuilderable_Builder_Contract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tools-lang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.ap.tools.lang.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="me.ap.tools.lang.builder" />
-      <option name="MAIN_CLASS_NAME" value="me.ap.tools.lang.builder.BuilderTest" />
-      <option name="METHOD_NAME" value="toBuilderable_Builder_Contract" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BuilderTest.builderModifiesAttributes" />
-        <item itemvalue="JUnit.BuilderTest" />
-        <item itemvalue="JUnit.BuilderTest.toBuilderable_Builder_Contract" />
+        <item itemvalue="JUnit.DeserializerForUpdatingTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="f2cc258f-6d7e-4917-b746-4c591d784032" name="Changes" comment="" />
-      <created>1715697319003</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1715697319003</updated>
-    </task>
-    <servers />
   </component>
 </project>
