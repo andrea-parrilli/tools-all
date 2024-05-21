@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.Builder;
 import me.ap.tools.lang.builder.Buildable;
 import me.ap.tools.lang.builder.ToBuilderable;
 import org.junit.jupiter.api.Test;
@@ -21,8 +22,9 @@ class DeserializerForUpdatingTest {
         mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
         this.updater = new DeserializerForUpdating(mapper);
     }
-    
-    public static record TestRecord(Integer id, String name)
+
+    @Builder(toBuilder = true)
+    public record TestRecord(Integer id, String name)
     implements ToBuilderable<TestRecord.TestRecordBuilder> {
         public static class TestRecordBuilder implements Buildable<TestRecord> {}
     }
